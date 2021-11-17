@@ -17,7 +17,7 @@ db.filmes.insertMany([
 
 db.filmes.find({
     ano:{ $gte:"1997", $lte:"2004"}
-}).count()
+}).count() // Apesar da consulta estar certa, não foi pedido pra fazer a contagem
 
 
 //3 - filmes de 2001 ou que comecem com a letra D.
